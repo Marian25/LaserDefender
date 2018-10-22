@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212874426977329020}
   - component: {fileID: 114760508364128442}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Jerry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,8 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3a788b94915d4d06b402c333e63f72f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 11400000, guid: a9604ad5df64a4e11a5acddabe7b3e0a, type: 2}
-  moveSpeed: 5
 --- !u!212 &212874426977329020
 SpriteRenderer:
   m_ObjectHideFlags: 1
