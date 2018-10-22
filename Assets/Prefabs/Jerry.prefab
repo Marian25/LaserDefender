@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4184434521202476}
   - component: {fileID: 212874426977329020}
   - component: {fileID: 114760508364128442}
+  - component: {fileID: 114338934004911426}
+  - component: {fileID: 58077736576057080}
   m_Layer: 0
   m_Name: Jerry
   m_TagString: Untagged
@@ -41,6 +43,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &58077736576057080
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104834255894182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.034171343}
+  serializedVersion: 2
+  m_Radius: 0.37261987
+--- !u!114 &114338934004911426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104834255894182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ea895efc69b41b7b266404a5d45bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  projectile: {fileID: 1882927243770922, guid: 248605e99f49c44a5b300f3161eb9393, type: 2}
+  projectileSpeed: 10
 --- !u!114 &114760508364128442
 MonoBehaviour:
   m_ObjectHideFlags: 1
