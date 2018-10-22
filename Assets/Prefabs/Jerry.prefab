@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 114760508364128442}
   - component: {fileID: 114338934004911426}
   - component: {fileID: 58077736576057080}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Jerry
   m_TagString: Untagged
   m_Icon: {fileID: 0}

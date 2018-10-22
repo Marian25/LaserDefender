@@ -533,17 +533,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114060528555813498, guid: c112c4dc142334cb99524e2ee6c0b663,
-        type: 2}
-      propertyPath: laserPrefab
-      value: 
-      objectReference: {fileID: 1488267356377144, guid: 5fb26f2cc20b94757809ba044826fdd7,
-        type: 2}
-    - target: {fileID: 114060528555813498, guid: c112c4dc142334cb99524e2ee6c0b663,
-        type: 2}
-      propertyPath: projectileSpeed
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c112c4dc142334cb99524e2ee6c0b663, type: 2}
   m_IsPrefabAsset: 0

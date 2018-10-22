@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 4895979146506832}
   - component: {fileID: 212577723487187298}
   - component: {fileID: 114060528555813498}
-  m_Layer: 0
+  - component: {fileID: 60141224516486630}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,6 +42,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &60141224516486630
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1303355894110888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.99, y: 0.75}
+    newSize: {x: 0.99, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.49499997, y: 0.070711955}
+      - {x: 0.37515265, y: -0.016753677}
+      - {x: 0.27083528, y: 0.035200756}
+      - {x: 0.13332961, y: 0.12642318}
+      - {x: 0.0893572, y: 0.34491414}
+      - {x: 0.08085799, y: 0.37499994}
+      - {x: -0.08417618, y: 0.37499994}
+      - {x: -0.12834094, y: 0.124999985}
+      - {x: -0.25250566, y: 0.037855823}
+      - {x: -0.35151017, y: -0.020245796}
+      - {x: -0.47834092, y: 0.056223497}
+      - {x: -0.47834092, y: -0.24112216}
+      - {x: -0.40417618, y: -0.22295631}
+      - {x: -0.145, y: -0.27561158}
+      - {x: -0.09083519, y: -0.34785593}
+      - {x: 0.07584663, y: -0.36724427}
+      - {x: 0.14829788, y: -0.27341035}
+      - {x: 0.255, y: -0.26173356}
+      - {x: 0.395432, y: -0.22012974}
+      - {x: 0.45499998, y: -0.265}
+      - {x: 0.46584675, y: -0.25112265}
+      - {x: 0.47001138, y: -0.2550002}
 --- !u!114 &114060528555813498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54,6 +101,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
+  health: 200
+  laserPrefab: {fileID: 1488267356377144, guid: 5fb26f2cc20b94757809ba044826fdd7,
+    type: 2}
+  projectileSpeed: 20
+  projectileFiringPeriod: 0.1
 --- !u!212 &212577723487187298
 SpriteRenderer:
   m_ObjectHideFlags: 1
